@@ -1,4 +1,4 @@
 HumpbackWhale
 =============
 
-Website for back HumpbackWhale
+Website for band HumpbackWhale
