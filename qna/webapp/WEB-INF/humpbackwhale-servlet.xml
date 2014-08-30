@@ -15,7 +15,7 @@
 	<!-- 컨트롤러를 annotation 기반으로 추가 -->
 	<mvc:annotation-driven />
 	
-	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/" p:suffix=".jsp" />
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
 	
 	<!-- 웹사이트 구성에 필요한 css, js와 같은 리소스 파일들 추가 -->
 	<mvc:resources location="/images/" mapping="/images/**"/>
