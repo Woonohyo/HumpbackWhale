@@ -17,6 +17,9 @@
 	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/" p:suffix=".jsp" />
 	
-	
+	<!-- 웹사이트 구성에 필요한 css, js와 같은 리소스 파일들 추가 -->
+	<mvc:resources location="/images/" mapping="/images/**"/>
+	<mvc:resources location="/stylesheets/" mapping="/stylesheets/**"/>
+	<mvc:resources location="/javascripts/" mapping="/javascripts/**"/>
 	
 </beans>
