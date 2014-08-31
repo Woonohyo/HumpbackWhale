@@ -4,8 +4,8 @@
 	<comment>application-properties</comment>
 	
 	<!-- Database -->
-	<entry key="database.driverClassName">org.h2.Driver</entry>
-	<entry key="database.url">jdbc:h2:~/humpbackwhale-user</entry>
+	<entry key="database.driverClassname">com.mysql.jdbc.Driver</entry>
+	<entry key="database.url">jdbc:mysql://localhost:3306/humpbackwhale</entry>
 	<entry key="database.username">admin</entry>
 	<entry key="database.password"></entry>
 
