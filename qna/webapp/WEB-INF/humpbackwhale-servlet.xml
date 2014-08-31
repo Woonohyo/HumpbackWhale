@@ -11,10 +11,10 @@
 	<!-- 컨트롤러를 스캔할 기본 패키지 위치 지정 -->
 	<context:component-scan base-package="net.humpbackwhale.web" />
 	
-	
 	<!-- 컨트롤러를 annotation 기반으로 추가 -->
 	<mvc:annotation-driven />
 	
+	<!-- WEB-INF 하단에 위치한 리소스는 브라우저에서 URL을 통해 직접 접근을 할 수 없다. -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
 	
 	<!-- 웹사이트 구성에 필요한 css, js와 같은 리소스 파일들 추가 -->
