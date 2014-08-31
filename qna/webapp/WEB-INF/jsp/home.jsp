@@ -23,6 +23,7 @@
 			<div class="row-fluid"">
 				<div class="span6">
 					<h1>메인 페이지</h1>
+					<h2><a href="/users/form">회원가입하기</a></h2>
 				</div>
 			</div>
 		</div>
